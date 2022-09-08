@@ -58,3 +58,4 @@ Y_test = np.array(Y_test)
 # X_train, X_test, Y_train, Y_test = model_selection.train_test_split(X, Y)
 xy = (X_train, X_test, Y_train, Y_test)
 np.save("./animal_aug.npy", xy)
+
